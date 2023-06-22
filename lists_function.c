@@ -60,8 +60,6 @@ void processInstruction(const char *instruction, unsigned int line, stack_t **st
     	{"pstr", pstr},
     	{"rotl", rotl},
     	{"rotr", rotr},
-	{"stack", stack},
-	{"queue", queue},
 	{NULL, NULL}};
 
     int i = 0;

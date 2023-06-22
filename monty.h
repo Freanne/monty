@@ -7,7 +7,7 @@
 #include <unistd.h>
 #include <ctype.h>
 
-extern int sq_flag;
+
 #define BUFFER_SIZE 1024
 
 /**
@@ -56,6 +56,4 @@ void pstr(stack_t **stack, unsigned int line_number);
 void pchar(stack_t **stack, unsigned int line_number);
 void rotl(stack_t **stack, unsigned int line_number);
 void rotr(stack_t **stack, unsigned int line_number);
-void queue(stack_t **stack, unsigned int line_number);
-void stack(stack_t **stack, unsigned int line_number);
 #endif /* MONTY_H */

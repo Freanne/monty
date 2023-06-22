@@ -29,7 +29,7 @@ void pchar(stack_t **stack, unsigned int line_number)
  * @stack: linked list for stack
  * @line_number: line number opcode occurs on
  */
-void pstr(stack_t **stack, unsigned int line_number)
+void pstr(stack_t **stack, __attribute__ ((unused))unsigned int line_number)
 {
     stack_t *current = *stack;
 
@@ -50,7 +50,7 @@ void pstr(stack_t **stack, unsigned int line_number)
  * @line_number: the index of the current line
  *
  */
-void rotl(stack_t **stack, unsigned int line_number)
+void rotl(stack_t **stack, __attribute__ ((unused)) unsigned int line_number)
 {
     stack_t *last = *stack;
 
@@ -73,7 +73,7 @@ void rotl(stack_t **stack, unsigned int line_number)
  * @line_number: the index of the current line
  *
  */
-void rotr(stack_t **stack, unsigned int line_number)
+void rotr(stack_t **stack, __attribute__ ((unused)) unsigned int line_number)
 {
     stack_t *last = *stack;
 
